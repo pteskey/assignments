@@ -5,7 +5,7 @@
 Right off the bat this website has a mission statement letting you know it's a resource for World of Warcraft strategy. It also gives you clear examples of how the pages will be laid out when selecting which *dungeon* or *boss* you're going to be referencing.
 
 The light text really pops against the dark background giving it a fantastic contrast ratio and also uses the nice clean sans-serif font **Roboto**. 
-Font scale is well implemented, the text is easily readable in the body and headings.
+Font scale is well implemented, the text is easily readable with body and headings being clearly differentiated.
 
 This website follows several web conventions such as:
 - Navigation at the top of the screen
@@ -58,7 +58,7 @@ The website also features a selector for which role you are playing:
 ### Tank
 >The tank's primary role is to absorb damage and prevent others from being attacked.[1]
 ### Healer
->The healer' primary combat purpose is to heal friendly characters or give them defensive buffs.[2]
+>The healer' primary role purpose is to heal friendly characters or give them defensive buffs.[2]
 ### DPS
 >Damage dealers are players who are responsible for dealing damage in the group. Usually abbreviated as DPS (Damage per second)[3]
 
