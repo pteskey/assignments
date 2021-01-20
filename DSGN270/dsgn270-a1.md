@@ -25,7 +25,7 @@ This website features a few good examples of visual hierarchy:
 - Proximity
 - Size and Scale 
 
-The content is well aligned. As I mentioned earlier once you've selected a specific boss or dungeon the content is sorted chronologically as you scroll down. They've also chosen to alternate which side they put their text boxes so they don't clutter one side of your screen.
+The content is well aligned. Once you've selected a specific boss or dungeon the content is sorted chronologically as you scroll down. They've also chosen to alternate which side they put their text boxes so they don't clutter one side of your screen.
 
 The developers opted to use black and dark greys for the backgrounds. The text is white and there is also a shade of yellow to highlight important text. When using the accessibility inspector the text is rated at a 20 for contrast ratio.
 
