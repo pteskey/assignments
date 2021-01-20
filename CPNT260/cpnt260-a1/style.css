@@ -1,0 +1,30 @@
+/* Potential Color Palette:
+#6c9a8b
+#e8998d
+#eed2cc
+#fbf7f4
+#a1683a */
+
+html {
+  /* background-color: #6c9a8b;
+  color: #fbf7f4; */
+  font-family: Montserrat, sans-serif;
+}
+
+main {
+  width: 80vw;
+  margin: auto;
+  max-width: 90ch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Libre Baskerville, serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+section {
+  padding-bottom: 1.5em;
+}
