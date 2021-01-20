@@ -1,6 +1,6 @@
 # Assignments
 
-## Design 270
+## Web Design and Social Media 270
 
 | Assignment # | Status |
 | ----------- | ----------- |
@@ -8,10 +8,29 @@
 | DSGN270a2 | Incomplete |
 | DSGN270a3 | Incomplete |
 | DSGN270a4 | Incomplete |
-| CPNT201a1 | Incomplete |
+
+---
+
+## Web Design Tools & Techniques
+
+| Assignment # | Status |
+| ----------- | ----------- |
+| CPNT201a1 | Complete |
 | CPNT201a2 | Incomplete |
 | CPNT201a3 | Incomplete |
 | CPNT201a4 | Incomplete |
+
+---
+
+## Web Page Construction Fundamentals
+
+| Assignment # | Status |
+| ----------- | ----------- |
+| CPNT260ex1 | Complete |
+| CPNT260a1 | Complete |
+| CPNT260a2 | Incomplete |
+| CPNT260a3 | Incomplete |
+| CPNT260a4 | Incomplete |
 
 
 
