@@ -11,7 +11,7 @@
 
 ---
 
-## Web Design Tools & Techniques
+## Web Design Tools & Techniques 201
 
 | Assignment # | Status |
 | ----------- | ----------- |
@@ -22,7 +22,7 @@
 
 ---
 
-## Web Page Construction Fundamentals
+## Web Page Construction Fundamentals 260
 
 | Assignment # | Status |
 | ----------- | ----------- |
