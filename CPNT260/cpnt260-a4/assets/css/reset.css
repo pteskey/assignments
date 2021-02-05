@@ -8,3 +8,7 @@
   background-position: center;
   background-size: cover;
 }
+
+ul, ol {
+	list-style: none;
+}
