@@ -1,0 +1,346 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 16px;
+}
+
+html {
+	background-color: rgb(221, 221, 221);
+}
+
+body {
+	font-family: Lato, sans-serif;
+	width: 80vw;
+	margin: auto
+}
+
+/* HEADER */
+
+.logo-img {
+	width: 8rem;
+	clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+	margin-right: 1rem;
+}
+
+.logo-text {
+	font-family: Londrina Solid, sans-serif;
+	font-size: 4.5rem;
+}
+
+header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 2rem 2rem;
+}
+
+/* NAVIGATION */
+
+.nav-toggle {
+	position: absolute;
+	margin: 0rem 2rem;
+	right: 0;
+	cursor: pointer;
+}
+
+.nav label svg {
+	width: 2rem;
+	fill: black;
+}
+
+.close {
+	display: none;
+	margin-top: 3rem;
+}
+
+.menu {
+	margin-top: 3rem;
+}
+
+.nav-checkbox {
+	display: none;
+}
+
+.nav-menu {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}
+
+nav li {
+	display: none;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+nav li:first-child {
+	display: block;
+	margin-right: auto;
+}
+
+nav li:last-child {
+	padding-bottom: 2rem;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+	padding: 0;
+}
+
+.nav a:hover {
+	color: #ffaa23;
+}
+
+.nav-menu li:last-child a {
+	background-color: #ffcc81;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	border-radius: .2rem;
+	border: 2px solid black;
+}
+
+.nav-menu li:last-child:hover {
+	transform: scale(1.15);
+	transition: 300ms ease-in;
+}
+
+.nav-menu li:last-child a:hover {
+	color: white;
+}
+
+#nav-checkbox:checked~ul.nav-menu li {
+	display: block;
+}
+
+#nav-checkbox:checked~label.nav-toggle .close {
+	display: block;
+}
+
+#nav-checkbox:checked~label.nav-toggle .menu {
+	display: none;
+}
+
+/* TYPOGRAPHY SETTINGS */
+
+h1,
+h2,
+h3 {
+	font-family: Montserrat, sans-serif;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-top: 1.5rem;
+	padding-bottom: 2.5rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+	padding-bottom: .5rem;
+}
+
+p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+/* MAIN LAYOUT */
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	padding-bottom: 4rem;
+}
+
+.main-content>* {
+	flex: 1 1 50%;
+}
+
+.main-img {
+	max-width: 100%;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 30px #777;
+}
+
+.column1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.column2 {
+	display: flex;
+	flex-direction: column;
+	max-width: 75ch;
+	min-width: 45ch;
+	align-items: center;
+	justify-content: center;
+	padding: 0 1rem 3rem 1rem;
+	text-align: center;
+}
+
+.main-content2 {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 4rem;
+}
+
+.main-content2>* {
+	flex: 1 1 50%;
+}
+
+.team-head {
+	font-size: 4rem;
+	text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}
+
+.container {
+  box-shadow: 0px 2px 8px 0px #777;
+  text-align: center;
+  border-radius: 2rem;
+  position: relative;
+  max-width: 350px;
+  margin: 2rem auto;
+  color: #000;
+}
+
+.banner-img {
+  border-radius: 2rem;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+
+  background-image: url("../images/beanz.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
+
+.profile-img {
+  width: 12rem;
+	height: 12rem;
+	border: 4px solid rgba(255, 255, 255, .4);
+	border-radius: 10px;
+	margin-top: 4rem;
+	object-fit: cover;
+	margin-bottom: 2rem;
+}
+
+.name {
+	margin: auto;
+	font-size: 1.75rem;
+	width: 10ch;
+	border-radius: .5rem;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.info {
+	min-width: 20ch;
+	max-width: 30ch;
+  margin: 1rem 2rem;
+	font-size: 1.1rem;
+	border-radius: .5rem;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.icon-links {
+  padding: 2rem;  
+}
+
+.icon-links a:visited a:link {
+	color: white;
+}
+
+.icon {
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+
+footer p {
+	margin-bottom: 0;
+	font-size: .8rem;
+	text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1060px) {
+	.nav-toggle {
+		display: none;
+	}
+
+	.nav-menu {
+		flex-direction: row;
+	}
+
+	.nav li {
+		display: block;
+	}
+
+	nav li:last-child {
+		padding-bottom: 0rem;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+	:root {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+
+	body {
+		width: 90vw;
+		margin: auto;
+	}
+
+	:root {
+		font-size: 12px;
+	}
+
+	.logo-img {
+		width: 7rem;
+		
+	}
+
+	/* .logo-img {
+		width: 7rem;
+	}
+
+	.logo-text {
+		font-size: 3.5rem;
+	}
+	
+	p {
+		font-size: 1.4rem;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	} */
+}

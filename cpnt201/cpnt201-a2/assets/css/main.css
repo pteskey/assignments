@@ -1,0 +1,49 @@
+body {
+  font-family: Lato, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1920px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 3rem auto;
+}
+
+.footer {
+  padding-top: 5rem;
+}
+
+.footer p { 
+  margin: 0;
+  
+  text-align: center;  
+  line-height: 1;
+  font-size: 1rem;  
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 12px;
+  }
+}

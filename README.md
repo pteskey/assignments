@@ -16,7 +16,7 @@
 | Assignment # | Status |
 | ----------- | ----------- |
 | CPNT201a1 | Complete |
-| CPNT201a2 | Incomplete |
+| CPNT201a2 | Complete |
 | CPNT201a3 | Incomplete |
 | CPNT201a4 | Incomplete |
 
@@ -28,9 +28,9 @@
 | ----------- | ----------- |
 | CPNT260ex1 | Complete |
 | CPNT260a1 | Complete |
-| CPNT260a2 | Incomplete |
-| CPNT260a3 | Incomplete |
-| CPNT260a4 | Incomplete |
+| CPNT260a2 | Complete |
+| CPNT260a3 | Complete |
+| CPNT260a4 | In Progress |
 
 
 
