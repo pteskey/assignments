@@ -2,15 +2,20 @@
 
 Assignment #03\
 Patrick Teskey\
+https://pteskey.github.io/cpnt260-a3\
+https://github.com/pteskey/cpnt260-a3
+
 
 ## Context
 
 Page is designed to be used for a coffee shop or some sort of coffee adjacent business.\
-Carried over the content from assignment one and made some changes.\
-Started a bit of a hero section to use for assignment 4.\
-Card content is at the bottom of the page!\
-There are also some scaled images that will hopefully be implemented soon.\
-Also tried the BEM naming convention for css elements.
+A continuation from the previous assignment.\
+Mostly complete hero section to use for assignment 4.\
+Gallery is below the cards!\
+Compressed most of the images for much lower file sizes.\
+Also tried the BEM naming convention for css.\
+Gallery and Team links in nav now move to specific parts of the page.\
+Social links below gallery. I had already done some fake ones for the cards so I picked three different ones for the bottom.
 
 ## Attributions
 

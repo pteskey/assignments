@@ -2,15 +2,18 @@
 
 Assignment #04\
 Patrick Teskey\
+https://github.com/pteskey/cpnt260-a4\
+https://pteskey.github.io/cpnt260-a4
 
 ## Context
 
-Page is designed to be used for a coffee shop or some sort of coffee adjacent business.\
-Carried over the content from assignment one and made some changes.\
-Started a bit of a hero section to use for assignment 4.\
-Card content is at the bottom of the page!\
-There are also some scaled images that will hopefully be implemented soon.\
-Also tried the BEM naming convention for css elements.
+- Page is designed to be used for a coffee shop or some sort of coffee adjacent business.
+- Carried over the content from assignment to assignment.
+- Added a Sign Up link to nav to practice form implementation with formspree.
+- Top left icon returns to home.
+- Added a return to top link in footer.
+- Google map added to main content, made it fairly responsive.
+- Tried to group css properly.
 
 ## Attributions
 

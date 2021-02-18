@@ -338,7 +338,7 @@ main {
   padding: 1.2rem;
   opacity: .8;
   transform: scale(1);
-  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);   
+  transition: all 200ms ease-in-out;   
 }
 
 .gallery > li > figure > figcaption {
@@ -353,6 +353,7 @@ main {
   min-width: 100%;
   object-fit: contain;  
   border-radius: 1rem 1rem 0 0;
+  vertical-align: bottom;
 }
 
 .gallery > li > figure:hover {
@@ -362,6 +363,13 @@ main {
 
 /* SOCIALS */
 
+.socials__header {
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  color: #000;
+}
 
 .socials ul {
   padding-top: 3rem;
@@ -465,5 +473,9 @@ footer p {
 
   .main__column2 p {
     min-width: 35ch;
+  }
+
+  .gallery > li > figure {
+    opacity: 1;
   }
 }

@@ -1,6 +1,8 @@
 # Web Design Tools & Technique CPNT-201
-Assignment #02
-Patrick Teskey
+Assignment #02\
+Patrick Teskey\
+https://pteskey.github.io/cpnt201-a2\
+https://github.com/pteskey/cpnt201-a2
 
 
 ## Attributions

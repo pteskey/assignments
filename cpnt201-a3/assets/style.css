@@ -1,0 +1,93 @@
+body {
+  background-color: skyblue;  
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.svg-box {
+  grid-area: 1 / 1 / 6 / 7;
+  justify-self: center;
+  margin-top: 1rem;
+}
+
+button {
+  display: flex;
+
+  margin: auto;
+  padding: 2rem;
+
+  font-size: 2rem;
+
+  border-radius: 1rem;
+  border: none;
+  
+  cursor: pointer;
+}
+
+/* SVG CLASSES */
+
+.stormboi {
+  height: 80vh;
+}
+
+.stormboi>* {
+  transition: 250ms ease-in-out;
+}
+
+.cloud {
+  fill: white;
+}
+
+.blurry {
+  fill: gray;
+  filter: blur(2px);
+}
+
+.raindrops {
+  fill: skyblue;
+
+}
+
+.rain {
+  fill: rgb(0, 183, 255);
+  filter: drop-shadow(3px 13px 0px rgb(0, 84, 117));
+}
+
+.lightning {
+  opacity: 0;
+}
+
+.bolt {
+  opacity: 1;
+}
+
+.darkmode {
+  background: linear-gradient(to bottom, #000, #222);
+}
+
+.happy {
+  opacity: 1;
+}
+
+.mad {
+  opacity: 0;
+}
+
+.madtoggle {
+  opacity: 1;
+}
+
+.happytoggle {
+  opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .stormboi {
+    width: 70vw;
+  }
+}

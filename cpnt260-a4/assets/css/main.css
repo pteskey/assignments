@@ -1,3 +1,8 @@
+body {
+  font-family: Source Sans Pro, sans-serif;  
+  color: #fff;
+}
+
 /* HERO SECTION */
 
 .hero {
@@ -12,21 +17,8 @@
   background-image: url(../images/coffee-hero.jpg);
 }
 
-body {
-  font-family: Source Sans Pro, sans-serif;  
-  color: #fff;
-}
-
 header {
   grid-area: 4 / 2 / 6 / 5;
-}
-
-iframe {
-  border-radius: 1rem;
-}
-
-.bg-gradient {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(221, 221, 221, 1));
 }
 
 .header__text {
@@ -185,6 +177,14 @@ p {
 
 /* MAIN LAYOUT */
 
+iframe {
+  border-radius: 1rem;
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(221, 221, 221, 1));
+}
+
 main {
   width: 80vw;
   margin: auto;
@@ -193,6 +193,7 @@ main {
 .main__content1 {
   display: flex;
   flex-wrap: wrap-reverse;
+
   padding-bottom: 2rem;
   margin: auto;
 }
@@ -209,6 +210,7 @@ main {
 .main__content2 {
   display: flex;
   flex-wrap: wrap;
+
   padding-bottom: 4rem;
   margin: auto;
 }
@@ -236,6 +238,7 @@ main {
 .main__column2 p {
   background-color: rgba(0, 0, 0, .3);
   border-radius: 1rem;
+
   padding: 1rem;
   max-width: 75ch;
   min-width: 40ch;
@@ -250,6 +253,7 @@ main {
 .card__header {
   font-size: 4rem;
   text-align: center;
+
   padding-top: 5rem;
   padding-bottom: 2rem;
 }
@@ -262,22 +266,24 @@ main {
 .card__container {
   display: flex;
   flex-direction: column;
+
+  color: #000;
   box-shadow: 0px 2px 8px 0px #777;
   border-radius: 1rem;
+
   position: relative;
   max-width: 375px;
   margin: 2rem auto;
-  color: #000;
-
 }
 
 .card__background-img {
   border-radius: 1rem;
+  background-image: url("../images/beans-bg.jpg");
+  z-index: 0;
+
   position: absolute;    
   height: 100%;
   width: 100%;  
-  background-image: url("../images/beans-bg.jpg");
-  z-index: 0;
 }
 
 
@@ -293,10 +299,12 @@ main {
 
 .card__name {
   color: #fff;
+  font-size: 1.75rem;  
+
   margin: 1rem auto 1rem auto;
-  font-size: 1.75rem;
   max-width: 15ch;
   padding: 0rem .75rem;
+  
   border-radius: .5rem;
   background-color: rgba(0, 0, 0, .3);
   z-index: 1;
@@ -353,10 +361,11 @@ main {
 }
 
 .gallery > li > figure > figcaption {
-  background-color: rgba(0, 0, 0, .3);
-  border-radius:  0 0 1rem 1rem;
   text-align: center;
   font-size: 1.2rem;
+
+  background-color: rgba(0, 0, 0, .6);  
+  border-radius:  0 0 1rem 1rem;
   padding: .5rem 0 .5rem 0;
 }
 
@@ -376,11 +385,12 @@ main {
 /* SOCIALS */
 
 
-.socials ul {
-  padding-top: 3rem;
+.socials ul {  
   display: flex;
+
   justify-content: center;
   align-items: center;
+  padding-top: 3rem;
 }
 
 .socials ul a {
@@ -397,11 +407,20 @@ main {
   transition: all 300ms ease-in-out;
 }
 
+.return {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  color: #000;
+}
+
 /* FORMS */
 
 form { 
   grid-area: 5 / 2 / 8 / 5; 
+
   color:#fff;  
+
   margin-right: auto;
   margin-top: auto;
 }
@@ -409,8 +428,8 @@ form {
 .form__container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  
+
+  align-items: flex-start;  
   
   padding: 0 2rem 2rem .5rem;
   border-radius: 1rem;  
